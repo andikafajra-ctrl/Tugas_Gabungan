@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPC - Cart</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="index.html" class="logo">SPC</a>
+
+    <nav class="navbar">
+        <a href="index.html#home">home</a>
+        <a href="index.html#products">products</a>
+        <a href="index.html#featured">featured</a>
+        <a href="index.html#review">review</a>
+        <a href="cart.html">cart</a>
+    </nav>
+
+    <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="cart.html" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+        <a href="#" id="theme-toggle" class="fas fa-moon" aria-label="toggle dark mode"></a>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- cart section starts  -->
+
+<section class="cart" id="cart">
+
+    <h1 class="heading"> keranjang <span>belanja</span> </h1>
+
+    <div class="cart-container">
+        <div class="cart-items" id="cart-items">
+            <div class="cart-row cart-header">
+                <div class="cart-col product">produk</div>
+                <div class="cart-col price">harga</div>
+                <div class="cart-col qty">qty</div>
+                <div class="cart-col subtotal">subtotal</div>
+            </div>
+            <p class="cart-empty" id="cart-empty">Keranjang masih kosong. Yuk belanja dulu!</p>
+        </div>
+
+        <aside class="cart-summary">
+            <h3>ringkasan</h3>
+            <div class="summary-row">
+                <span>subtotal</span>
+                <span id="cart-subtotal">Rp0</span>
+            </div>
+            <div class="summary-row">
+                <span>ongkir</span>
+                <span id="cart-shipping">Rp25.000</span>
+            </div>
+            <div class="summary-row total">
+                <span>total</span>
+                <span id="cart-total">Rp0</span>
+            </div>
+            <a href="#" class="btn">checkout</a>
+            <a href="index.html#products" class="btn btn-outline">lanjut belanja</a>
+        </aside>
+    </div>
+
+</section>
+
+<!-- cart section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our stores</h3>
+            <a href="#">indonesia</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">paris</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html#home">home</a>
+            <a href="index.html#products">products</a>
+            <a href="index.html#featured">featured</a>
+            <a href="index.html#review">review</a>
+            <a href="cart.html">cart</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#">my account</a>
+            <a href="#">my favorite</a>
+            <a href="#">my orders</a>
+            <a href="#">newsletter</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+        </div>
+
+        <div class="credit">template by <span> Shubham Sharma </span> | all rights reserved</div>
+
+    </div>
+
+</section>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+    
+</body>
+</html>
